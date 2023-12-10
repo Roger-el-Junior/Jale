@@ -1,3 +1,7 @@
+//tenemos q crear varios 
+// L tienes q se dinamica 
+// el atributo id nesesita se dimming
+
 function creaInput() {
   
   let l = document.getElementById('lunes')

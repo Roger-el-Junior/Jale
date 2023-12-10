@@ -1,3 +1,6 @@
+//c ser dinamico
+// v1 deve ser param
+
 function parrafo(content) {
   let c = document.getElementById('prC1')
   let p = document.createElement('p')
