@@ -1,13 +1,13 @@
 //c ser dinamico
 // v1 deve ser param
 
-function parrafo(content) {
-  let c = document.getElementById('prC1')
+function parrafo(obj, content, qit) {
+
   let p = document.createElement('p')
   p.innerHTML = content
 
-  c.appendChild(p)
-  c.removeChild(v1)
+  obj.appendChild(p)
+  obj.removeChild(qit)
 
 }
 
@@ -18,3 +18,24 @@ let v1;
 
 
 //alert ('Has pulsado enter'); }
+
+
+function creaInput(v1) {
+  
+  let inp = document.createElement('input')
+  inp.setAttribute('id', 'pr1')
+  
+  v1.appendChild(inp)
+  
+}
+
+
+function td(v1){
+  let td = document.createElement('td');
+  td.innerHTML = creaInput(td);
+  
+  
+}
+
+let id = document.getElementById('lumes')
+td(id)

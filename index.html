@@ -36,18 +36,14 @@
         <th>
           Fiados
         </th>
-        <th>
-          Lista Compras
-        </th>
+
         <th>
           Gasto
         </th>
         <th>
           Perdida
         </th>
-        <th>
-          Cuadra
-        </th>
+
       </tr>
     </thead>
     <tbody>
@@ -58,46 +54,33 @@
 
 <!--Cantidad Jugos	Efectivo	Fiados	Lista Compras	Gasto	Perdida	Cuadra-->
 
-        <td>
-          <input name="cantidadJugos">
+        <td id="cantidadJugos">
+          <input name="cantidadJugos" id="cJ">
         </td>
 
-        <td>
+        <td id="efectivo">
           <input name="efectivo">
         </td>
-        <td>
+        <td id="fiados">
           <input name="fiados">
         </td>
 
-        <td>
-          <input name="listaCompras">
-        </td>
-
-        <td>
+        <td id="gasto">
           <input name="gasto">
         </td>
 
-        <td>
-          <input name="perdida">
+        <td id="perdida">
+        
         </td>
-        <td>
-          <input name="cuadra">
-        </td>
+
 
       </tr>
 
-      <tr>
+      <tr id="martes">
         <th>
           Martes
         </th>
 
-
-        <td>
-
-        </td>
-        <td>
-
-        </td>
         <td>
 
         </td>
@@ -116,18 +99,13 @@
 
       </tr>
 
-      <tr>
+      <tr id="miercoles">
         <th>
           Miercoles
         </th>
 
 
-        <td>
 
-        </td>
-        <td>
-
-        </td>
         <td>
 
         </td>
@@ -146,18 +124,11 @@
 
       </tr>
 
-      <tr>
+      <tr id="jueves">
         <th>
           Jueves
         </th>
 
-
-        <td>
-
-        </td>
-        <td>
-
-        </td>
         <td>
 
         </td>
@@ -176,7 +147,7 @@
 
       </tr>
 
-      <tr>
+      <tr id="viernes">
         <th>
           Viernes
         </th>
@@ -196,26 +167,14 @@
         <td>
 
         </td>
-        <td>
-
-        </td>
-        <td>
-
-        </td>
 
       </tr>
 
-      <tr>
+      <tr id="sabado">
         <th>
           Sabado
         </th>
 
-        <td>
-
-        </td>
-        <td>
-
-        </td>
         <td>
 
         </td>
@@ -237,7 +196,7 @@
 
   </table>
 
-  <button onclick='pr1()'>validar</button>
+  <button onclick='iniciar()'>validar</button>
 
   <script src="js/int1.js"></script>
   <script src="js/createInput.js"></script>
