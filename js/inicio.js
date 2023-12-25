@@ -1,7 +1,19 @@
 document.addEventListener('DOMContentLoaded', function(){
   //creaInput()
-  
+  dia()
+
 })
+
+function dia(){
+  
+  const semana = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"]
+  
+  let d = new Date()
+  let dia = d.getDay()
+    
+  rmSon(dia)
+  
+}
 
 function iniciar(){
   pasar()
@@ -9,9 +21,7 @@ function iniciar(){
   pasar3()
   pasar4()
   
-  /*
-  let jugos, dinero, dejados, producto, perdida 
-  */
+  
   perdidaTotal()
 }
 function perdidaTotal(){
@@ -26,6 +36,7 @@ function perdidaTotal(){
   jugos*=12
   
   console.log(efectivoEsperado+"" + jugos)
+  
   
   if(efectivoEsperado < jugos){
     console.log("falta")
@@ -46,3 +57,4 @@ function perdidaTotal(){
 
   
 }
+
