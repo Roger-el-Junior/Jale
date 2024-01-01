@@ -1,10 +1,5 @@
-/*
-  let efectivo = document.getElementById('efectivo')
-  let fiados = document.getElementById('fiados')
-  let gasto = document.getElementById('gasto')
-  let perdida = document.getElementById('perdida')
-*/
 
+let arr = []
 let jugos, dinero, dejados, producto, perdida
 
 function pasar() {
@@ -16,7 +11,7 @@ function pasar() {
 
   jugos = parseInt(cJ.value)
 
-
+arr.push(jugos)
 
 }
 
@@ -29,7 +24,7 @@ function pasar2() {
 
   dinero = parseInt(efectivo1.value)
 
-
+arr.push(dinero)
 
 }
 
@@ -42,6 +37,7 @@ function pasar3() {
 
   dejados = parseInt(fiados1.value)
 
+arr.push(dejados)
 
 }
 
@@ -52,6 +48,8 @@ function pasar4() {
   parse(gasto, gasto1)
 
   producto = parseInt(gasto1.value)
+  
+  arr.push(producto)
 
 }
 
@@ -83,7 +81,7 @@ function rmSon(dia) {
 
       case "Lunes":
         if ((n >= 0) && (n <= 4)) {
-          console.log(td[i]);
+          //console.log(td[i]);
 
           z++
 
