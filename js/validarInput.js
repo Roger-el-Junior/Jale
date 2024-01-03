@@ -1,10 +1,3 @@
-function input() {
-  v1 = document.getElementById('pr1')
-  console.log(v1.value)
-  parrafo(v1.value)
-}
-
-
 let i = document.querySelector('input').addEventListener ('keypress', function(e) {
   validar(e);
 })
@@ -13,6 +6,8 @@ let i = document.querySelector('input').addEventListener ('keypress', function(e
 
 function validar(e) {
   let tecla = (document.all) ? e.keyCode: e.which; 
+  
+  console.log("keyPres")
   
   if(tecla == 13){
     input()
